@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html{
+scroll-behavior: smooth;
+}
+body{
+text-align: center;
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+}
+
+a{
+text-decoration: none;
+color: #ffffff;
+}
+.header{ 
+background-color: #343a40;
+color:#ffffff;
+height: 13%;
+width: 100%;
+position: fixed;
+top: 0px;
+
+}
+
+.section {
+background-color: #1abc9c;
+height: 300px;
+color: #ffffff;
+padding-top: 80px;
+padding-bottom: 50px;
+}
+
+img{
+width: 150px;
+display: inline-block; 
+}
+
+h1 {
+display: inline-block;
+position: absolute;
+left: 15px;
+
+}
+
+.container {
+position: absolute;
+right: 20px;
+top: 20px;
+;
+
+}
+
+.item {
+display: inline-block;
+margin-right: 10px;
+}
+
+.Porfolio {
+background-color: #ffffff;
+height: 400px;
+color: #000000;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.texto1 {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.texto2 {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    text-align: justify;
+    vertical-align: top;
+  }
+
+button {
+    background-color: #ffffff;
+    
+}
+
+.Form-style{
+    height: 300px;
+    background-color: #ffffff;
+
+}
+
+.Form-style input{
+    display: block;
+    border: none;
+    border-bottom: 2px solid black;
+    
+}
+
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+
+@media (max-width:600px) {
+    .item {
+    display: none;
+    }
+
+}

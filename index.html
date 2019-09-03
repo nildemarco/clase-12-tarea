@@ -10,21 +10,21 @@
 </head>
 
 <body>
-    <nav>
-        <div class="header">
-            <h1 class="titulo"> Ada Online</h1>
-            <div class="container">
-                <p class="item"> <a href="#porfolio">PORFOLIO</a></p>
-                <p class="item"><a href="#About"> ABOUT</a></p>
-                <p class="item"><a href="#Contact">CONTACT</a></p>
-            </div>
 
+    <nav class="header">
+        <h1 class="titulo"> Ada Online</h1>
+        <div class="container">
+            <p class="item"> <a href="#porfolio">PORFOLIO</a></p>
+            <p class="item"><a href="#About"> ABOUT</a></p>
+            <p class="item"><a href="#Contact">CONTACT</a></p>
         </div>
+
     </nav>
+
 
     <section class="section">
 
-        <img src="./img/foto.svg">
+        <img src="./img/foto.svg" alt="Logo">
 
         <h2 class="titulosec"> HTML Y CSS</h2>
         <h3 class="parrafo">Aprendiendo las bases de front end</h3>
@@ -36,21 +36,21 @@
         <h2>Porfolio</h2>
 
         <div>
-            <img src="./img/cabin.png">
-            <img src="./img/cake.png">
-            <img src="./img/circus.png">
+            <img src="./img/cabin.png" alt="Cabin">
+            <img src="./img/cake.png" alt="Cake">
+            <img src="./img/circus.png" alt="Circus">
         </div>
 
         <div>
-            <img src="./img/game.png">
-            <img src="./img/safe.png">
-            <img src="./img/submarine.png">
+            <img src="./img/game.png" alt="game">
+            <img src="./img/safe.png" alt="safe">
+            <img src="./img/submarine.png" alt="submarine">
         </div>
 
 
     </section>
 
-    <section class="section" id="About">
+    <section class="About" id="About">
 
         <article>
             <h2>About</h2>
@@ -73,12 +73,12 @@
         </div>
     </section>
 
-    <section class="Form-style" id="Contact">
+    <section class="Contact" id="Contact">
 
         <h2>Contacto</h2>
 
 
-        <forms action="/contact" method="GET">
+        <form action="/contact" method="GET">
 
             <label>
                 <input required type="text" placeholder="Nombre" name="name">
@@ -92,9 +92,11 @@
             <label>
                 <input type="number" placeholder="Celular" name="celular">
             </label>
+            <label>
             <textarea rows="4" cols="50" placeholder="Mensaje" name="text area"></textarea>
+            </label>
 
-            <input type="submit">
+            <input type="submit" name="Enviar">
 
             </form>
 

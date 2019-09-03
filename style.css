@@ -27,7 +27,7 @@ top: 0px;
 background-color: #1abc9c;
 height: 300px;
 color: #ffffff;
-padding-top: 80px;
+padding-top: 150px;
 padding-bottom: 50px;
 }
 
@@ -64,6 +64,16 @@ margin-left: 100px;
 margin-right: 100px;
 }
 
+.About {
+    
+ background-color: #1abc9c;
+ height: 300px;
+ color: #ffffff;
+ padding-top: 80px;
+ padding-bottom: 50px;
+     
+}
+
 .texto1 {
     height: 200px;
     width: 200px;
@@ -81,23 +91,38 @@ margin-right: 100px;
   }
 
 button {
-    background-color: #ffffff;
-    
-}
-
-.Form-style{
-    height: 300px;
-    background-color: #ffffff;
-
-}
-
-.Form-style input{
-    display: block;
+    background: #343a40;
     border: none;
-    border-bottom: 2px solid black;
+    color: #ffffff;
     
 }
 
+.Contact{
+    height: 400px;
+    background-color: #ffffff;
+    padding-top: 50px;
+
+}
+
+input{
+    border: none;
+    border-bottom: 1px dotted black;
+    width: 400px;
+}
+
+input[type=submit]{
+ background: #343a40;
+ color: #ffffff;
+ width: 100px;
+ border: none;
+  
+}
+
+label{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+} 
 
 footer {
     background-color: #343a40;
